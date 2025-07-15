@@ -1,0 +1,7 @@
+.active-link{
+    color: black;
+    font-weight: bold;
+}
+.nav_div ul{
+    cursor: pointer;
+}
