@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import SvgFavourite from '../../components/common/SvgFavourite'
 
 const ProductCard = ({ id, title, description, price, discount, rating, brand, thumbnail, slug }) => {
-  console.log(slug);
   return (
     <div className="relative group transition-transform duration-300 hover:scale-105 hover:shadow-lg bg-white rounded-2xl overflow-hidden border border-gray-200">
       {/* Favorite Button */}
