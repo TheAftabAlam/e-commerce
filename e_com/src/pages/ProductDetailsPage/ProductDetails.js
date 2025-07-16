@@ -64,14 +64,14 @@ const ProductDetails = () => {
     setBreadCrumbLink([]);
     const arrayLinks = [{ title: 'Shop', path: '/' }, {
       title: productCategory?.name,
-      path: productCategory?.name
+      path:`/${productCategory?.name?.toLowerCase()}`
     }];
     const productType = productCategory?.categoryTypes?.find((item) => item?.id === product?.categoryTypeId);
 
     if (productType) {
       arrayLinks?.push({
         title: productType?.name,
-        path: productType?.name
+        path: `/${productType?.name?.toLowerCase()}`
       })
     }
     setBreadCrumbLink(arrayLinks);

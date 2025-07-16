@@ -9,20 +9,22 @@ import { useEffect } from 'react'
 import { loadCategories } from './store/features/category';
 import { useDispatch } from 'react-redux';
 import { setLoading } from './store/features/common';
+import { useDialog } from "./components/CommonDialog/DialogContext";
 
 
 
 function Shop() {
 
-   const dispatch = useDispatch();
+  const { showDialog } = useDialog();
+  const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(setLoading(true))
     fetchCategories().then((result) => {
       dispatch(loadCategories(result))
-    }).catch(err=>{
-
-    }).finally(()=>{
+    }).catch(err => {
+      showDialog("cross", "Something went wrong. Please refresh the page or try again later.");
+    }).finally(() => {
       dispatch(setLoading(false))
     });
   }, [dispatch])

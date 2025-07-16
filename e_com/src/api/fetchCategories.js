@@ -8,7 +8,6 @@ export const fetchCategories = async () => {
     const result = await axios.get(url);
     return result?.data;
   } catch (error) {
-    console.error("Failed to fetch categories:", error);
-    return null; 
+    throw new Error("Failed to fetch categories");
   }
 };
