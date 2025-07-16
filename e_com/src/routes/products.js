@@ -1,9 +1,12 @@
-import content from '../data/content.json'
+import { getProductBySlug } from '../api/fetchProducts';
+import { setLoading } from '../store/features/common';
+import store from '../store/store';
 
-const loadProductById = ({ params }) => {
-  const id = Number(params.productId);
-  const product = content?.products?.find((product) => product.id === id)
-  return {product};
-}
+const loadProductBySlug = async ({ params }) => {
+  store.dispatch(setLoading(true));
+  const product = await getProductBySlug(params?.slug);
+  store.dispatch(setLoading(false));
+  return { product };
+};
 
-export default loadProductById
+export default loadProductBySlug;

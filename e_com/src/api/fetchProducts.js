@@ -11,11 +11,24 @@ export const getAllProducts = async (id, typeId) => {
         const result = await axios(url, {
             method: 'GET'
         })
-        console.log("products ", result.data)
         return result?.data;
 
     } catch (err) {
 
+    }
+
+}
+
+export const getProductBySlug = async (slug) => {
+    let url = API_BASE_URL + API_URLS.GET_PRODUCT(slug);
+    try {
+        const result = await axios(url, {
+            method: 'GET'
+        })
+        console.log(result);
+        return result.data
+    } catch (err) {
+        console.log(err);
     }
 
 }

@@ -18,7 +18,6 @@ const categories = content?.categories;
 const ProductList = ({ categoryType }) => {
 
   const categoryData = useSelector((state) => state?.categoryState?.categories);
-
   const dispatch = useDispatch();
   const [products, setProducts] = useState([]);
 
@@ -44,11 +43,6 @@ const ProductList = ({ categoryType }) => {
     return categories.find((Category) => Category.code === categoryType)
   }, [categoryType]);
 
-
-  // const productList = useMemo(() => {
-
-  //   return content?.products?.filter((product) => product.category_id === categoryContent.id)
-  // }, [categoryContent])
   return (
     <div>
       <div className='flex'>

@@ -39,9 +39,15 @@ public class ProductController {
         return new ResponseEntity<>(productList, HttpStatus.OK);
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity<ProductDto> getProductById(@PathVariable UUID id) {
-        ProductDto productDto = productService.getProductById(id);
+//    @GetMapping("/{id}")
+//    public ResponseEntity<ProductDto> getProductById(@PathVariable UUID id) {
+//        ProductDto productDto = productService.getProductById(id);
+//        return new ResponseEntity<>(productDto, HttpStatus.OK);
+//    }
+
+    @GetMapping("/{slug}")
+    public ResponseEntity<ProductDto> getProductBySlug(@PathVariable String slug) {
+        ProductDto productDto = productService.getProductBySlug(slug);
         return new ResponseEntity<>(productDto, HttpStatus.OK);
     }
 

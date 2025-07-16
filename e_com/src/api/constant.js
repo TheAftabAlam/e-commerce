@@ -1,6 +1,6 @@
 export const API_URLS = {
     GET_PRODUCTS:'/api/products',
-    GET_PRODUCT: (id) => `/api/product/${id}`,
+    GET_PRODUCT: (slug) => `/api/products/${slug}`,
     GET_CATEGORIES:'/api/category',
     GET_CATEGORY: (id) => `/api/category/${id}`,
 }

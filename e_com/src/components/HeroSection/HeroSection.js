@@ -1,11 +1,11 @@
 import React from 'react'
-import HeroImg from '../../assets/img/hero-img.png'
+import eComBg from '../../assets/img/e_com_bg.png'
 
 const HeroSection = () => {
     return (
         <div className='relative flex items-center bg-cover flext-start bg-center text-left h-svh w-full' style={{
             backgroundImage
-                : `url(${HeroImg})`
+                : `url(${eComBg})`
         }}>
             <div className='absolute top-0 right-0 bottom-0 left-0'></div>
             <main className='px-10 lg:px-24 z-10'>
@@ -19,7 +19,7 @@ const HeroSection = () => {
                 <p className='mt-3 text-white sm:mt-5 sm:max-w-xl text-2xl'>
                     cool / colorful / comfy
                 </p>
-                <button className='border rounded mt-6 border-black hover:bg-white hover:text-black hover:border-black text-white bg-black w-44 h-12'>
+                <button className='border rounded mt-6 border-black bg-white hover:text-black hover:border-black text-black w-44 h-12 hover:scale-110'>
                     Shop Now
                 </button>
             </main>
