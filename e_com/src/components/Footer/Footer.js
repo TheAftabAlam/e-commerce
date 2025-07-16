@@ -4,31 +4,55 @@ import InstaIcon from '../common/InstaIcon'
 
 const Footer = ({ content }) => {
   return (
-    <div className='bg-black text-white py-8'>
-      <div className='flex justify-around flex-wrap'>
-        {content?.items && content.items.map((item, index) => (
-          <div key={index} className='flex flex-col mb-4'>
-            <p className='text-[16px] pb-[10px]'>{item?.title}</p>
-            {item?.list && item.list.map((listItem, listIndex) => (
+    <footer className="bg-black text-white py-10 px-6 md:px-20 my-4">
+      {/* Footer Content */}
+      <div className="flex flex-wrap justify-between gap-10">
+        {content?.items?.map((item, index) => (
+          <div key={index} className="min-w-[140px]">
+            <h3 className="text-lg font-semibold mb-3">{item?.title}</h3>
+            {item?.list?.map((listItem, listIndex) => (
               <a
                 key={`${listItem?.path}-${listIndex}`}
-                className='flex flex-col text-[12px] py-2'
                 href={listItem?.path}
+                className="text-sm text-gray-400 hover:text-white block mb-2 transition"
               >
                 {listItem?.label}
               </a>
             ))}
-
-            {item?.description && <p>{item.description}</p>}
+            {item?.description && (
+              <p className="text-sm text-gray-300 mt-2 leading-relaxed">
+                {item.description}
+              </p>
+            )}
           </div>
         ))}
       </div>
-      <div className='flex gap-2 items-center justify-center py-4'>
-        <a href='/fb' target="_blank" rel="noopener noreferrer"><FbIcon /></a>
-        <a href='/insta' target="_blank" rel="noopener noreferrer"><InstaIcon /></a>
+
+      {/* Social Media Icons */}
+      <div className="flex justify-center items-center gap-6 mt-10">
+        <a
+          href="/fb"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:scale-110 transition-transform duration-200"
+        >
+          <FbIcon />
+        </a>
+        <a
+          href="/insta"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:scale-110 transition-transform duration-200"
+        >
+          <InstaIcon />
+        </a>
       </div>
-      <p className='text-sm text-white text-center'>{content?.copyright}</p>
-    </div>
+
+      {/* Copyright */}
+      <p className="text-center text-xs text-gray-500 mt-6">
+        {content?.copyright}
+      </p>
+    </footer>
   )
 }
 
