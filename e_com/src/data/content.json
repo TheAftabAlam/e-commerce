@@ -292,8 +292,16 @@
       "type_id": 4,
       "brand": "Nike",
       "price": 24.99,
-      "size": ["S", "M", "L", "XL"],
-      "color": ["Black","Blue"],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Black",
+        "Blue"
+      ],
       "discount": 10,
       "thumbnail": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
       "images": [
@@ -310,8 +318,16 @@
       "type_id": 1,
       "brand": "Levi's",
       "price": 59.99,
-      "size": ["28", "30", "32", "34"],
-      "color": ["Blue","Yellow"],
+      "size": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "color": [
+        "Blue",
+        "Yellow"
+      ],
       "discount": 15,
       "thumbnail": "https://images.unsplash.com/photo-1542272604-787c3835535d",
       "images": [
@@ -328,8 +344,16 @@
       "type_id": 14,
       "brand": "Adidas",
       "price": 49.99,
-      "size": ["S", "M", "L", "XL"],
-      "color": ["Gray","Black"],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Gray",
+        "Black"
+      ],
       "discount": 20,
       "thumbnail": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633",
       "images": [
@@ -346,8 +370,17 @@
       "type_id": 5,
       "brand": "Zara",
       "price": 39.99,
-      "size": ["XS", "S", "M", "L"],
-      "color": ["Floral","Gray","Black"],
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Floral",
+        "Gray",
+        "Black"
+      ],
       "discount": 15,
       "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTHal70wQ3e_YA9x3u8AUg2sD2s-wXxtv_QCiUg05pj58GahBoduXrKZNqduI0jGTAmVNCkNVCvrbX_o19ERYFKd3RbE6r7KE10UxXQbQ_pbiOmkhSlQavv",
       "images": [
@@ -366,8 +399,15 @@
       "type_id": 8,
       "brand": "Lululemon",
       "price": 69.99,
-      "size": ["XS", "S", "M", "L"],
-      "color": ["Black"],
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black"
+      ],
       "discount": 10,
       "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQWv-9zCnn5ztcNMuSx-95XcmsRrOopjVBmk4dkkhcAShx7cNJiYePSfLceE1u9DOUXkEOVlWKzKyxHRbAPxUmrgCMpDSPNyoOR_PUknPcZFsYCIcNR-8hr",
       "images": [
@@ -385,8 +425,15 @@
       "type_id": 9,
       "brand": "H&M",
       "price": 29.99,
-      "size": ["XS", "S", "M", "L"],
-      "color": ["White"],
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "White"
+      ],
       "discount": 5,
       "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSkn2P6HUxpCDMdfs-8AeaGf1CtvRQQHLNW8o7bwcMALPXc2fCKhkIZycT--kOwXs2oiylLdKGkrRAs3FgKfrdwUvyHM1C8qLHV3yYKM3jL8RAoFYSo63QL",
       "images": [
@@ -404,8 +451,15 @@
       "type_id": 4,
       "brand": "Carter's",
       "price": 12.99,
-      "size": ["2T", "3T", "4T", "5T"],
-      "color": ["Blue"],
+      "size": [
+        "2T",
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "color": [
+        "Blue"
+      ],
       "discount": 10,
       "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTnLJ64LQ3WySPmITkOEZ5ehQWkrhyg9t4xTHD5RyLHCIUUSmnFjslk-n4Kx_NROVSR3EvZztWWIWohgzDqHgaWGai5wYE0r6JTZ8O5zF_U",
       "images": [
@@ -423,8 +477,15 @@
       "type_id": 5,
       "brand": "Gap Kids",
       "price": 24.99,
-      "size": ["2T", "3T", "4T", "5T"],
-      "color": ["Pink"],
+      "size": [
+        "2T",
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "color": [
+        "Pink"
+      ],
       "discount": 15,
       "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ1wa6HqHVPZSwvrIPRfxV_mEB7XvSpYYNMsqpMSRLkOnzI5MfwdPO6zetFOsybUP-6MdYYahb4iEWlvWaDQ7VPCXSEM62s4B1nTed2OSb4WmCzfuG3YdSGlQ",
       "images": [
@@ -441,8 +502,15 @@
       "type_id": 14,
       "brand": "Old Navy",
       "price": 19.99,
-      "size": ["2T", "3T", "4T", "5T"],
-      "color": ["Gray"],
+      "size": [
+        "2T",
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "color": [
+        "Gray"
+      ],
       "discount": 20,
       "thumbnail": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633",
       "images": [
@@ -459,8 +527,15 @@
       "type_id": 6,
       "brand": "Nike",
       "price": 89.99,
-      "size": ["8", "9", "10", "11"],
-      "color": ["Black"],
+      "size": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "color": [
+        "Black"
+      ],
       "discount": 10,
       "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
       "images": [
@@ -477,8 +552,15 @@
       "type_id": 6,
       "brand": "Adidas",
       "price": 79.99,
-      "size": ["6", "7", "8", "9"],
-      "color": ["White"],
+      "size": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "color": [
+        "White"
+      ],
       "discount": 15,
       "thumbnail": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28",
       "images": [
@@ -495,8 +577,15 @@
       "type_id": 6,
       "brand": "Crocs",
       "price": 24.99,
-      "size": ["10", "11", "12", "13"],
-      "color": ["Blue"],
+      "size": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "color": [
+        "Blue"
+      ],
       "discount": 10,
       "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTgWTK06kZeQxCMX18qXvoCwao1EvXkwQY5l54nFvxrVWzzqGbRrxEIkiCNYmAqOF91LqTFs9GpL_fQ6UoKfycN-i_6nklIa7LYdt8YEtNQIMyoXSgAgiJa5Vk",
       "images": [
