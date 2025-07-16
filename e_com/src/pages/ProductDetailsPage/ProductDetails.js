@@ -209,7 +209,7 @@ const ProductDetails = () => {
       {/* Product Description */}
       <div className="px-6 py-6">
         <SectionHeading title="Product Description" />
-        <div className="bg-white p-6 rounded-lg shadow-sm md:w-[50%] w-full">
+        <div className="bg-white p-6 rounded-lg shadow-sm md:w-[50%] w-full mx-8">
           <p className="text-gray-700">{product?.description}</p>
         </div>
       </div>
@@ -217,7 +217,7 @@ const ProductDetails = () => {
       {/* Similar Products */}
       <div className="px-6 py-6">
         <SectionHeading title="Similar Products" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-4 mx-8">
           {similarProduct?.length > 0 ? (
             similarProduct.map((item, index) => (
               <ProductCard key={index} {...item} />
