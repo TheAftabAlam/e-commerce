@@ -49,6 +49,6 @@
 ### Frontend
 
 ```bash
-cd frontend
+cd e_com
 npm install
 npm start
